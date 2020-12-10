@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+header{
+    width: 100%;
+    height:600px;
+    background: rgb(65, 155, 197);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+.titulo-inicio {
+    font-size: 200px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+     }
+.titulo-inicio-2{
+     font-size: 40px;
+     color:rgb(255, 255, 255);
+     text-align: right;
+    }
+.animacion-header{
+ 
+}
+
+/*body*/
+body{
+    background-color: rgb(57, 162, 223);
+}
+
+/*que es Scipi app*/
+.seccion-que-es-scipi-app{
+     font-size: 30px;
+     color:rgb(255, 255, 255);
+     text-align: center;
+}
+.texto-que-es{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-align: relative;
+}
+.flex-container {
+    display:flex;
+    height: 510px; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container > div {
+    text-align: justify;
+}
+
+/*funcionalidad*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px 100px;
+    background-color: rgb (134, 211, 255);
+    padding: 100px;
+    justify-items: center;
+}
+
+.comunidad {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.repositorio {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.publicaciones {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+.section1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+.section2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+.section3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+@keyframes
+.animacion{
+    position:left;
+    top: 50px;
+    left: 50px;
+    margin-top: -128px ;
+
+    animation-name: phone and gamer;
+    animation-duration: .8s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+
+/* button */
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .button {
+    border: none;
+    border-radius: 3em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    width: auto;
+  }
+
+  .cta-button {
+    background-color: rgb(255, 255, 255)241, 241, 241);
+    color: #fff !important;
+  }
+  
+  .cta-button:hover {
+    background-color: #777;
+  }
